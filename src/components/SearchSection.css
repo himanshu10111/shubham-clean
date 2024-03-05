@@ -1,0 +1,60 @@
+.search-section {
+    background-color: #d9534f; /* Your desired shade of red */
+    padding: 20px;
+    color: white;
+  }
+  
+  .search-section .form-group {
+    margin-bottom: 0; /* Removes the default margin from the bottom of form groups */
+  }
+  
+  .search-section .form-control {
+    background-color: white;
+    border-radius: 0; /* Square edges, adjust if needed */
+    border: none;
+  }
+  
+  .search-section .form-control:focus {
+    box-shadow: none; /* Removes the default focus glow */
+    border-color: #d9534f; /* Adds red border if needed when focused */
+  }
+  
+  .search-section .react-datepicker-wrapper {
+    width: 100%; /* Ensures the date picker takes full width */
+  }
+  
+  .search-section .react-datepicker__input-container {
+    width: 100%;
+  }
+  
+  .search-section .react-datepicker__input-container input {
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  .search-section button {
+    background-color: #b52e31; /* A darker shade of red for contrast */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px; /* Rounded edges for the button */
+    height: auto; /* Ensures button height matches form controls */
+  }
+  
+  /* Style adjustments for the datepicker itself might be needed */
+  .react-datepicker {
+    border-radius: 0; /* Match the design of other inputs */
+    color: black; /* Default color for the text inside the datepicker */
+  }
+  
+  /* Additional styles for responsiveness and aesthetics */
+  @media (min-width: 768px) {
+    .search-section .form-control,
+    .search-section button,
+    .search-section .react-datepicker__input-container input {
+      height: 100%;
+    }
+  }
+  
+  /* You may need to add more styles to perfectly match your screenshot */
+  
